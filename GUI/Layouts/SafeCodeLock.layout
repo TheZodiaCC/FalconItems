@@ -1,0 +1,80 @@
+FrameWidgetClass rootFrame {
+ position 10 10
+ size 1879.20996 1060.55005
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   position 635.42706 342.64001
+   size 608.35699 428.23502
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_black_2
+   {
+    TextWidgetClass CodeLockModeTEXT {
+     ignorepointer 1
+     position 12.5948 12.5947
+     size 583.16699 68.4665
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    PanelWidgetClass PanelWidget1 {
+     ignorepointer 1
+     position 9.50005 88.19129
+     size 591.953 327.44901
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style blank
+     {
+      ButtonWidgetClass ApplyBUTTON {
+       position 140.117 163.72501
+       size 311.71902 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style MenuDefault
+       text "APPLY"
+      }
+      EditBoxWidgetClass PasswordTEXT {
+       position 12.5947 25.1895
+       size 566.76404 88.16329
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DefaultBorder
+       "limit visible" 0
+       "exact text" 1
+      }
+      TextWidgetClass MessageTEXT {
+       ignorepointer 1
+       position 12.5947 224.32001
+       size 566.76404 68.4665
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       "exact text" 1
+       text_proportion 0.5
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+ }
+}

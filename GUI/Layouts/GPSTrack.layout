@@ -1,0 +1,25 @@
+FrameWidgetClass rootFrame {
+ position 10 10
+ size 1877.64001 1057.41003
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  TextWidgetClass distanceTEXT {
+   ignorepointer 1
+   position 900.45001 517.39203
+   size 76.7399 22.627
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   "exact text" 1
+   text_proportion 0.4
+   "size to text h" 0
+   "size to text v" 0
+   "text halign" center
+   "text valign" center
+  }
+ }
+}

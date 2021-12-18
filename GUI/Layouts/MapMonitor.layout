@@ -1,0 +1,234 @@
+FrameWidgetClass rootFrame {
+ keepsafezone 1
+ position 0.15195 1.15125
+ size 1885.52002 1079.12
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ fixaspect inside
+ {
+  ImageWidgetClass gpsBackground {
+   ignorepointer 1
+   color 0.1412 0.1725 0.149 1
+   position 22.9549 -2.32189
+   size 1852.13 1077.98999
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    ImageWidgetClass infoPanel {
+     ignorepointer 1
+     color 0.2353 0.2902 0.251 1
+     position 1481.31006 80.22529
+     size 361.121 983.85297
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      TextWidgetClass Label_PosX {
+       ignorepointer 1
+       position 12.5947 90.38731
+       size 47.2536 49.4927
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "X:"
+       "exact text" 1
+       "text halign" right
+       "text valign" center
+      }
+      TextWidgetClass Label_PosY {
+       ignorepointer 1
+       position 12.5948 152.47501
+       size 48 49.4927
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Y:"
+       "exact text" 1
+       "text halign" right
+       "text valign" center
+      }
+      TextWidgetClass TextPlayerPosX {
+       ignorepointer 1
+       position 72.443 90.7225
+       size 273.62399 48.8223
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       "exact text" 1
+      }
+      TextWidgetClass TextPlayerPosY {
+       ignorepointer 1
+       position 72.443 152.80901
+       size 273.62399 48.8223
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       "exact text" 1
+      }
+      TextWidgetClass Label_Coordinates {
+       ignorepointer 1
+       position 12.5947 14.9865
+       size 332.85797 48.8223
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "COORDINATES"
+       "exact text" 1
+       "text halign" center
+       "text valign" center
+      }
+      TextWidgetClass Label_PosXCursor {
+       ignorepointer 1
+       position 12.5948 331.68698
+       size 47.2536 49.4927
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "X:"
+       "exact text" 1
+       "text halign" right
+       "text valign" center
+      }
+      TextWidgetClass Label_PosYCursor {
+       ignorepointer 1
+       position 12.5948 393.77402
+       size 48 49.4927
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Y:"
+       "exact text" 1
+       "text halign" right
+       "text valign" center
+      }
+      TextWidgetClass CursorX {
+       ignorepointer 1
+       position 72.443 332.022
+       size 273.763 48.8223
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       "exact text" 1
+      }
+      TextWidgetClass CursorY {
+       ignorepointer 1
+       position 72.443 394.88599
+       size 273.14999 48.8223
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       "exact text" 1
+      }
+      TextWidgetClass Label_Coordinates0 {
+       ignorepointer 1
+       position 12.5947 264.36398
+       size 332.74402 48.8223
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "COORDINATES"
+       "exact text" 1
+       "text halign" center
+       "text valign" center
+      }
+      TextWidgetClass Label_Coordinates1 {
+       ignorepointer 1
+       position 12.5947 214.72501
+       size 332.74402 48.8223
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "CURSOR"
+       "exact text" 1
+       "text halign" center
+       "text valign" center
+      }
+      TextWidgetClass Label_DistanceTITLE {
+       ignorepointer 1
+       position 12.5948 457.64502
+       size 335.931 49.4927
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Distance"
+       "exact text" 1
+       "text halign" center
+       "text valign" center
+      }
+      TextWidgetClass DistanceTEXT {
+       ignorepointer 1
+       position 12.5947 519.73206
+       size 335.93201 48.8223
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       "exact text" 1
+       "text halign" center
+       "text valign" center
+      }
+      ButtonWidgetClass DeleteMarkBUTTON {
+       position 12.5948 923.258
+       size 335.931 48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style MenuDefault
+       text "Delete Tracker"
+      }
+     }
+    }
+    PanelWidgetClass mapPanel {
+     ignorepointer 1
+     position 18.7376 81.2699
+     size 1451.02002 983.85199
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scriptclass ""
+     {
+      MapWidgetClass gpsWidget {
+       position 0.90412 -0.41694
+       size 1449.83008 983.85297
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+     }
+    }
+    TextWidgetClass TitleTEXT {
+     ignorepointer 1
+     position 14.6774 13.7654
+     size 1826.23999 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Falcon GPS"
+     "exact text" 1
+     "text valign" center
+    }
+   }
+  }
+ }
+}

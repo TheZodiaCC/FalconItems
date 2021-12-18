@@ -1,0 +1,224 @@
+FrameWidgetClass rootFrame {
+ position 12.5948 12.5948
+ size 1875.04004 1054.81006
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  PanelWidgetClass PanelWidget {
+   ignorepointer 1
+   position 634.56097 12.5948
+   size 605.91803 1029.62
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_black_2
+   {
+    TextListboxWidgetClass PlayersLIST {
+     position 12.5948 316.39099
+     size 580.72803 374.74603
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     lines 10
+    }
+    TextWidgetClass RemainingDaysTITLE {
+     ignorepointer 1
+     position 12.5948 706.84497
+     size 290.36398 50.3791
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Remaining Days"
+     text_proportion 0.7
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass RemainingDaysTEXT {
+     ignorepointer 1
+     position 12.5947 767.44
+     size 290.36398 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text_proportion 0.6
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass PlotPoleTITLE {
+     ignorepointer 1
+     position 12.5947 12.5948
+     size 580.729 60.5948
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Plot Pole Management"
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    ButtonWidgetClass AddSelfBUTTON {
+     position 12.5947 814.66998
+     size 580.729 59.0553
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style MenuDefault
+     text "Add Self"
+     text_proportion 0.6
+    }
+    ButtonWidgetClass RemovePlayersBUTTON {
+     position 12.5947 957.97003
+     size 580.729 59.0553
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style MenuDefault
+     text "Clear Owners"
+     text_proportion 0.6
+    }
+    TextWidgetClass OwnersCountTITLE {
+     ignorepointer 1
+     position 302.95898 706.84497
+     size 290.36398 50.3791
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Owners Count"
+     text_proportion 0.7
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass OwnersCountTEXT {
+     ignorepointer 1
+     position 302.95898 767.44
+     size 290.36398 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text_proportion 0.6
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass PlotPoleTITLE2 {
+     ignorepointer 1
+     position 12.5947 269.14301
+     size 580.729 34.653
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Online Owners"
+     "text halign" center
+     "text valign" center
+    }
+    ButtonWidgetClass RemoveSelectedBUTTON {
+     position 12.5947 886.32001
+     size 580.729 59.0553
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style MenuDefault
+     text "Remove Selected"
+     text_proportion 0.6
+    }
+    TextWidgetClass ObjectsCountTEXT {
+     ignorepointer 1
+     position 12.5948 85.78439
+     size 253.769 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass ObjectsSPACER {
+     ignorepointer 1
+     position 278.95898 85.78439
+     size 48 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "/"
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass MaxObjectsCountTEXT {
+     ignorepointer 1
+     position 339.55399 85.78429
+     size 253.769 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     position 12.5947 146.37901
+     size 580.729 49.5743
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Territory Level"
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass CurrentLevelTEXT {
+     ignorepointer 1
+     position 12.5947 208.54799
+     size 253.77 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass MaxLevelTEXT {
+     ignorepointer 1
+     position 339.55399 208.54799
+     size 253.769 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass LeveLSPACER {
+     ignorepointer 1
+     position 278.95798 208.54799
+     size 48 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "/"
+     "exact text" 0
+     "text halign" center
+     "text valign" center
+    }
+   }
+  }
+ }
+}
