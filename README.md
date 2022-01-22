@@ -4,6 +4,7 @@ Custom Items for DayZ Standalone
 ---
 
 ### Features
+- Instadoc for insta healing
 - Safes with CodeLocks
 - Gates CodeLocks
 - C4 for base raids
